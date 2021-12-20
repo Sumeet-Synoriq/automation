@@ -48,6 +48,7 @@ def insert():
         db.session.commit()
 
         flash("Employee Inserted Successfully")
+        print("enter successfully")
 
         return redirect(url_for('Index'))
 
